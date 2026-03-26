@@ -1,7 +1,8 @@
 .page {
   min-height: 100vh;
   padding: 32px 16px;
-  background: radial-gradient(circle at 5% 10%, #ffe9c6 0%, transparent 40%),
+  background:
+    radial-gradient(circle at 5% 10%, #ffe9c6 0%, transparent 40%),
     radial-gradient(circle at 90% 0%, #d9f9e6 0%, transparent 30%),
     linear-gradient(145deg, #f7f4ed 0%, #dce9f9 100%);
 }
@@ -113,7 +114,9 @@
   color: #f5f8ff;
   background: linear-gradient(145deg, #1a53c9, #0f2f76);
   cursor: pointer;
-  transition: transform 0.2s ease, filter 0.2s ease;
+  transition:
+    transform 0.2s ease,
+    filter 0.2s ease;
 }
 
 .card button:hover:enabled {

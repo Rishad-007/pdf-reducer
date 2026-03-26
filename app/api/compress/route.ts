@@ -46,13 +46,16 @@ export async function POST(request: Request) {
 
   const normalizedMode = (mode ?? "MIDIUM") as CompressionMode;
   if (!["HIGH", "MIDIUM", "LOW"].includes(normalizedMode)) {
-    return NextResponse.json({ error: "Invalid compression mode." }, { status: 400 });
+    return NextResponse.json(
+      { error: "Invalid compression mode." },
+      { status: 400 },
+    );
   }
 
   if (incoming.type !== "application/pdf") {
     return NextResponse.json(
       { error: "Only application/pdf uploads are supported." },
-      { status: 400 }
+      { status: 400 },
     );
   }
 
@@ -60,7 +63,7 @@ export async function POST(request: Request) {
   if (incoming.size > 25 * 1024 * 1024) {
     return NextResponse.json(
       { error: "Please upload a PDF up to 25MB." },
-      { status: 400 }
+      { status: 400 },
     );
   }
 

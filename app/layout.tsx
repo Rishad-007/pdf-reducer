@@ -2,7 +2,8 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://pdf-size-reducer.vercel.app";
+const siteUrl =
+  process.env.NEXT_PUBLIC_SITE_URL || "https://pdf-size-reducer.vercel.app";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -44,8 +45,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "PDF Size Reducer | Compress PDF Online",
-    description:
-      "Free PDF compression tool with HIGH, MIDIUM, and LOW modes.",
+    description: "Free PDF compression tool with HIGH, MIDIUM, and LOW modes.",
   },
   robots: {
     index: true,

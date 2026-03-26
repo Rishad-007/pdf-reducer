@@ -36,9 +36,11 @@ npm run build
 `POST /api/compress`
 
 Form fields:
+
 - `file`: PDF file
 - `mode`: `HIGH` | `MIDIUM` | `LOW`
 
 Returns:
+
 - Compressed PDF as download stream
 - JSON error response on failure
