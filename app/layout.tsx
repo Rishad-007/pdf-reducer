@@ -18,16 +18,19 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "PDF Size Reducer | Compress PDF Online",
-    template: "%s | PDF Size Reducer",
+    default: "Rishad's PDF Reducer | Free Online PDF Size Reducer",
+    template: "%s | Rishad's PDF Reducer",
   },
   description:
-    "Free online PDF compressor with HIGH, MIDIUM, and LOW modes. Upload, compress, and download optimized PDF files in seconds.",
-  applicationName: "PDF Size Reducer",
+    "Rishad's PDF Reducer is a free online PDF compressor where you can upload, reduce PDF file size, and download optimized files in seconds.",
+  applicationName: "Rishad's PDF Reducer",
   keywords: [
+    "rishad pdf reducer",
     "pdf size reducer",
+    "free pdf reducer",
     "compress pdf",
     "reduce pdf size",
+    "reduce file size online",
     "online pdf compressor",
     "pdf optimizer",
   ],
@@ -37,15 +40,16 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     url: "/",
-    title: "PDF Size Reducer | Compress PDF Online",
+    title: "Rishad's PDF Reducer | Free Online PDF Size Reducer",
     description:
-      "Upload, compress, and download PDFs with HIGH, MIDIUM, or LOW compression modes.",
-    siteName: "PDF Size Reducer",
+      "Freely upload and compress PDF files with high, medium, or low compression modes and instant download.",
+    siteName: "Rishad's PDF Reducer",
   },
   twitter: {
     card: "summary_large_image",
-    title: "PDF Size Reducer | Compress PDF Online",
-    description: "Free PDF compression tool with HIGH, MIDIUM, and LOW modes.",
+    title: "Rishad's PDF Reducer | Free Online PDF Compressor",
+    description:
+      "Upload your PDF, reduce file size, and download an optimized PDF instantly.",
   },
   robots: {
     index: true,
